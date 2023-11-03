@@ -1,0 +1,8 @@
+; este comando define o raio do círculo
+make "raio 50
+
+; este loop desenha o círculo
+repeat 360 [
+  forward 3.14159265359 * :raio / 180 ; Avança 1 grau (360 graus no total)
+  right 1
+]

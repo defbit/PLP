@@ -1,0 +1,9 @@
+; Este loop cria uma escadinha
+
+repeat 10[
+make "altura 100  ; Altura da escadinha
+forward :altura  ; Subir um degrau
+right 90          ; Virar para a direita
+forward :altura  ; Avançar a distância da altura
+left 90           ; Virar para a esquerda
+]

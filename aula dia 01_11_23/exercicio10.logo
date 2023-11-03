@@ -1,0 +1,14 @@
+; Define o tamanho dos triângulos
+make "lado 100
+
+; Loop para desenhar o símbolo "Triforce"
+repeat 4 [
+  repeat 3 [
+    forward :lado
+    right 120 ; Ângulo de 120 graus para um triângulo equilátero
+  ]
+  forward :lado
+  left 120 ; Ângulo de 120 graus para posicionar o próximo triângulo
+  forward :lado
+  left 120
+]

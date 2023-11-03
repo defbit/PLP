@@ -1,0 +1,12 @@
+make "lado 100
+
+forward :lado
+right 90
+
+forward :lado
+right 90
+
+forward :lado
+right 90
+
+forward :lado

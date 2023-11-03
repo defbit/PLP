@@ -1,0 +1,9 @@
+; Define o tamanho das pontas da estrela
+make "tamanho 100
+
+; Loop para desenhar a estrela de cinco pontas
+repeat 5 [
+  forward :tamanho
+  right 144 ; Ângulo de 144 graus para uma estrela de cinco pontas
+]
+

@@ -1,0 +1,8 @@
+; este comando define o tamanho do lado
+make "lado 100
+
+; este loop define o tamanho do quadrado
+repeat 4 [
+  forward :lado
+  right 90
+]

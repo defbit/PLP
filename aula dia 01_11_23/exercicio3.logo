@@ -1,0 +1,11 @@
+; este comando define o tamanho dos lados 
+make "lado1 100
+make "lado2 50
+
+; este loop define o tamanho do retangulo
+repeat 2 [
+  forward :lado1
+  right 90
+  forward :lado2
+  right 90
+]

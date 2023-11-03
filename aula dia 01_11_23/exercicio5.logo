@@ -1,0 +1,8 @@
+; Define o tamanho da letra "L"
+make "lado 100
+make "altura 50
+
+; Desenhar a letra "L"
+forward :lado
+right 90
+forward :altura

@@ -1,0 +1,8 @@
+; este comando define o tamanho dos lados do octógono regular
+make "lado 50
+
+; este loop cria o octógono regular
+repeat 8 [
+  forward :lado
+  right 135 ; Ângulo interno de 135 graus
+]

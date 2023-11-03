@@ -1,0 +1,10 @@
+; Este loop cria a cordilheira
+repeat 15 [
+  make "altura (50 + random 50) ; Altura aleatória
+  forward :altura
+  right 45
+  forward :altura
+  left 90
+  forward :altura
+  right 45
+]
